@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D39B33B1B8266BC009B98A3 /* KFCSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D39B3301B8266BC009B98A3 /* KFCSV.framework */; };
+		1D39B3401B8266BC009B98A3 /* KFCSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39B33F1B8266BC009B98A3 /* KFCSVTests.swift */; };
+		1D39B34B1B8266E7009B98A3 /* CSVSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39B34A1B8266E7009B98A3 /* CSVSerializer.swift */; };
+		1DC364EF1B827D0E00DD17DD /* CSVComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC364EE1B827D0E00DD17DD /* CSVComponent.swift */; };
+		1DC364F11B827D3B00DD17DD /* CSVVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC364F01B827D3B00DD17DD /* CSVVisitor.swift */; };
+		1DC364F31B827D5F00DD17DD /* CSVRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC364F21B827D5F00DD17DD /* CSVRow.swift */; };
+		1DC364F51B827D7100DD17DD /* CSVTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC364F41B827D7100DD17DD /* CSVTable.swift */; };
+		1DC364F71B827D9700DD17DD /* CSVRow.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1DC364F21B827D5F00DD17DD /* CSVRow.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC364F81B827D9A00DD17DD /* CSVTable.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1DC364F41B827D7100DD17DD /* CSVTable.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC364F91B827D9D00DD17DD /* CSVSerializer.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1D39B34A1B8266E7009B98A3 /* CSVSerializer.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC364FA1B827E4A00DD17DD /* KFCSV.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D39B3331B8266BC009B98A3 /* KFCSV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D39B33C1B8266BC009B98A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D39B3271B8266BC009B98A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D39B32F1B8266BC009B98A3;
+			remoteInfo = KFCSV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D39B3301B8266BC009B98A3 /* KFCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D39B3331B8266BC009B98A3 /* KFCSV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFCSV.h; sourceTree = "<group>"; };
+		1D39B3351B8266BC009B98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D39B33A1B8266BC009B98A3 /* KFCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D39B33F1B8266BC009B98A3 /* KFCSVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCSVTests.swift; sourceTree = "<group>"; };
+		1D39B3411B8266BC009B98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D39B34A1B8266E7009B98A3 /* CSVSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVSerializer.swift; sourceTree = "<group>"; };
+		1DC364EE1B827D0E00DD17DD /* CSVComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVComponent.swift; sourceTree = "<group>"; };
+		1DC364F01B827D3B00DD17DD /* CSVVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVVisitor.swift; sourceTree = "<group>"; };
+		1DC364F21B827D5F00DD17DD /* CSVRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVRow.swift; sourceTree = "<group>"; };
+		1DC364F41B827D7100DD17DD /* CSVTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D39B32C1B8266BC009B98A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D39B3371B8266BC009B98A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D39B33B1B8266BC009B98A3 /* KFCSV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D39B3261B8266BC009B98A3 = {
+			isa = PBXGroup;
+			children = (
+				1D39B3321B8266BC009B98A3 /* KFCSV */,
+				1D39B33E1B8266BC009B98A3 /* KFCSVTests */,
+				1D39B3311B8266BC009B98A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D39B3311B8266BC009B98A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D39B3301B8266BC009B98A3 /* KFCSV.framework */,
+				1D39B33A1B8266BC009B98A3 /* KFCSVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D39B3321B8266BC009B98A3 /* KFCSV */ = {
+			isa = PBXGroup;
+			children = (
+				1D39B3331B8266BC009B98A3 /* KFCSV.h */,
+				1DC364F01B827D3B00DD17DD /* CSVVisitor.swift */,
+				1DC364EE1B827D0E00DD17DD /* CSVComponent.swift */,
+				1DC364F21B827D5F00DD17DD /* CSVRow.swift */,
+				1DC364F41B827D7100DD17DD /* CSVTable.swift */,
+				1D39B34A1B8266E7009B98A3 /* CSVSerializer.swift */,
+				1D39B3351B8266BC009B98A3 /* Info.plist */,
+			);
+			path = KFCSV;
+			sourceTree = "<group>";
+		};
+		1D39B33E1B8266BC009B98A3 /* KFCSVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D39B33F1B8266BC009B98A3 /* KFCSVTests.swift */,
+				1D39B3411B8266BC009B98A3 /* Info.plist */,
+			);
+			path = KFCSVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D39B32D1B8266BC009B98A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC364F71B827D9700DD17DD /* CSVRow.swift in Headers */,
+				1DC364F81B827D9A00DD17DD /* CSVTable.swift in Headers */,
+				1DC364FA1B827E4A00DD17DD /* KFCSV.h in Headers */,
+				1DC364F91B827D9D00DD17DD /* CSVSerializer.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D39B32F1B8266BC009B98A3 /* KFCSV-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D39B3441B8266BC009B98A3 /* Build configuration list for PBXNativeTarget "KFCSV-iOS" */;
+			buildPhases = (
+				1D39B32B1B8266BC009B98A3 /* Sources */,
+				1D39B32C1B8266BC009B98A3 /* Frameworks */,
+				1D39B32D1B8266BC009B98A3 /* Headers */,
+				1D39B32E1B8266BC009B98A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KFCSV-iOS";
+			productName = KFCSV;
+			productReference = 1D39B3301B8266BC009B98A3 /* KFCSV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D39B3391B8266BC009B98A3 /* KFCSVTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D39B3471B8266BC009B98A3 /* Build configuration list for PBXNativeTarget "KFCSVTests-iOS" */;
+			buildPhases = (
+				1D39B3361B8266BC009B98A3 /* Sources */,
+				1D39B3371B8266BC009B98A3 /* Frameworks */,
+				1D39B3381B8266BC009B98A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D39B33D1B8266BC009B98A3 /* PBXTargetDependency */,
+			);
+			name = "KFCSVTests-iOS";
+			productName = KFCSVTests;
+			productReference = 1D39B33A1B8266BC009B98A3 /* KFCSVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D39B3271B8266BC009B98A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "KF Interactive Gmbh";
+				TargetAttributes = {
+					1D39B32F1B8266BC009B98A3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1D39B3391B8266BC009B98A3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1D39B32A1B8266BC009B98A3 /* Build configuration list for PBXProject "KFCSV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D39B3261B8266BC009B98A3;
+			productRefGroup = 1D39B3311B8266BC009B98A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D39B32F1B8266BC009B98A3 /* KFCSV-iOS */,
+				1D39B3391B8266BC009B98A3 /* KFCSVTests-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D39B32E1B8266BC009B98A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D39B3381B8266BC009B98A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D39B32B1B8266BC009B98A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC364EF1B827D0E00DD17DD /* CSVComponent.swift in Sources */,
+				1DC364F11B827D3B00DD17DD /* CSVVisitor.swift in Sources */,
+				1D39B34B1B8266E7009B98A3 /* CSVSerializer.swift in Sources */,
+				1DC364F51B827D7100DD17DD /* CSVTable.swift in Sources */,
+				1DC364F31B827D5F00DD17DD /* CSVRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D39B3361B8266BC009B98A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D39B3401B8266BC009B98A3 /* KFCSVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D39B33D1B8266BC009B98A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D39B32F1B8266BC009B98A3 /* KFCSV-iOS */;
+			targetProxy = 1D39B33C1B8266BC009B98A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D39B3421B8266BC009B98A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D39B3431B8266BC009B98A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D39B3451B8266BC009B98A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KFCSV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfinteractive.KFCSV;
+				PRODUCT_NAME = KFCSV;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D39B3461B8266BC009B98A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KFCSV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfinteractive.KFCSV;
+				PRODUCT_NAME = KFCSV;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1D39B3481B8266BC009B98A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KFCSVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfinteractive.KFCSVTests;
+				PRODUCT_NAME = KFCSVTests;
+			};
+			name = Debug;
+		};
+		1D39B3491B8266BC009B98A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KFCSVTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfinteractive.KFCSVTests;
+				PRODUCT_NAME = KFCSVTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D39B32A1B8266BC009B98A3 /* Build configuration list for PBXProject "KFCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D39B3421B8266BC009B98A3 /* Debug */,
+				1D39B3431B8266BC009B98A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D39B3441B8266BC009B98A3 /* Build configuration list for PBXNativeTarget "KFCSV-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D39B3451B8266BC009B98A3 /* Debug */,
+				1D39B3461B8266BC009B98A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D39B3471B8266BC009B98A3 /* Build configuration list for PBXNativeTarget "KFCSVTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D39B3481B8266BC009B98A3 /* Debug */,
+				1D39B3491B8266BC009B98A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D39B3271B8266BC009B98A3 /* Project object */;
+}
